@@ -18,7 +18,7 @@ public class Telecommande {
 	 * la liste des lampes a controler on utilise l'interface pour masquer
 	 * l'implementation a ce niveau
 	 */
-	private List<Appareil> appareils;
+	private Listgi<Appareil>appareils;
 
 	/**
 	 * construit une telecommande sans lampe
