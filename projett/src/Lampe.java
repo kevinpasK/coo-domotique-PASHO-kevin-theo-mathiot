@@ -1,11 +1,11 @@
 /**
- * La classe Lampe qui represente une lampe qu'on peut allumer et eteindre.
+ * La classe domotique.Lampe qui represente une lampe qu'on peut allumer et eteindre.
  * 
  * elle possede un attribut allume qui rend compte de son etat. cet attribut est
  * prive et manipulable par les methodes allumer et eteindre
  */
 
-public class Lampe {
+public class Lampe implements Appareil {
 
 	/**
 	 * nom de la lampe
