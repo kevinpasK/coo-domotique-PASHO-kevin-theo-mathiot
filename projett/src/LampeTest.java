@@ -1,11 +1,9 @@
-import 
+import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * classe de test permettant de tester la classe Lampe
  */
 public class LampeTest {
-
-	@Test
 	/**
 	 * test du constructeur de lampe
 	 */
@@ -18,7 +16,7 @@ public class LampeTest {
 		assertEquals("une nouvelle lampe devrait etre eteinte", false, res);
 	}
 
-	@Test
+
 	/**
 	 * test allumer une lampe eteinte
 	 */
@@ -34,7 +32,7 @@ public class LampeTest {
 		assertEquals("apres allumer, la lampe devrait etre allumee", true, res);
 	}
 	
-	@Test
+
 	/**
 	 * test allumer une lampe allumee
 	 */
@@ -51,7 +49,7 @@ public class LampeTest {
 		assertEquals("apres allumer, la lampe devrait etre allumee", true, res);
 	}
 
-	@Test
+
 	/**
 	 * test eteindre une lampe allumee
 	 */
@@ -68,7 +66,7 @@ public class LampeTest {
 		assertEquals("apres eteindre, la lampe devrait etre eteinte", false, res);
 	}
 	
-	@Test
+
 	/**
 	 * test to String lampe eteinte
 	 */
@@ -83,7 +81,7 @@ public class LampeTest {
 		assertEquals("affichage devrait etr off","lampe1: Off",r);
 	}
 	
-	@Test
+
 	/**
 	 * test to String lampe allumee
 	 */
